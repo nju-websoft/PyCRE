@@ -61,7 +61,7 @@ pip install -r bin/requirements.txt
 
 Compile [CryptoMiniSat SAT solver](https://github.com/msoos/cryptominisat).
 
-Then you can use PyCRE to infer a compatible runtime environment to a Python code:
+Now, you can use PyCRE to infer a compatible runtime environment to a Python code:
 
 ```
 python bin/run.py <snippet_path> <dependencies_dir>
