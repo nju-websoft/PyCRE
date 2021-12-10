@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+
+  py2-neo4j:
+    image: python2:neo4j
+    container_name: py2-neo4j
+    restart: always
+    ports:
+    - 7474:7474
+    - 7687:7687
+  
+  py3-neo4j:
+    image: python3:neo4j
+    container_name: py3-neo4j
+    restart: always
+    ports:
+    - 7484:7474
+    - 7697:7687

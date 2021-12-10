@@ -1,0 +1,14 @@
+FROM neo4j:4.1.1
+
+ADD apoc-4.1.0.1-core.jar $NEO4J_HOME/plugins
+
+ENV NEO4J_AUTH=none
+COPY py2.dump /build-files/database.dump
+COPY load-and-start.sh /build-files/load-and-start.sh
+
+ENV NEO4J_dbms_memory_heap_initial__size 5100m
+ENV NEO4J_dbms_memory_heap_max__size 5100m
+ENV NEO4J_dbms_memory_pagecache_size 6900m
+
+ENTRYPOINT ["/sbin/tini", "-s", "-g", "--"]
+CMD ["/build-files/load-and-start.sh"]
