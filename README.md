@@ -66,3 +66,16 @@ Now, you can use PyCRE to infer a compatible runtime environment to a Python cod
 ```
 python bin/run.py <snippet_path> <dependencies_dir>
 ```
+
+## Citation
+
+If you use this work or code, please kindly cite it as follows:      
+
+```
+@inproceedings{PyCRE,
+  author    = {Wei Cheng and Xiangrong Zhu and Wei Hu},
+  title     = {Conflict-aware Inference of Python Compatible Runtime Environments with Domain Knowledge Graph},
+  booktitle = {ICSE},
+  year      = {2022}
+}
+```
