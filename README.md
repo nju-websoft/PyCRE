@@ -76,7 +76,7 @@ If you use this work or code, please kindly cite it as follows:
   author    = {Wei Cheng and Xiangrong Zhu and Wei Hu},
   title     = {Conflict-aware Inference of Python Compatible Runtime Environments with
                Domain Knowledge Graph},
-  booktitle = {ICSE},
+  booktitle = {International Conference on Software Engineering (ICSE)},
   year      = {2022}
 }
 ```
