@@ -74,8 +74,8 @@ If you use this work or code, please kindly cite it as follows:
 ```
 @inproceedings{PyCRE,
   author    = {Wei Cheng and Xiangrong Zhu and Wei Hu},
-  title     = {Conflict-aware Inference of Python Compatible Runtime Environments 
-               with Domain Knowledge Graph},
+  title     = {Conflict-aware Inference of Python Compatible Runtime Environments with
+               Domain Knowledge Graph},
   booktitle = {ICSE},
   year      = {2022}
 }
